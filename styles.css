@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    border-radius: 5px; 
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+#title{
+    background: #903;
+    color: white;
+}
+
+.panel-heading{
+    background: #903 !important;
+    border-color: #903 !important; 
+}
+
+#searchTerm{
+    width: 75%;
+    border-radius: 5px;
+} 
+
+.buttons{
+    color: white;
+   background-color: #1565C0 !important;
+   border-width: 2px;
+   border-radius: 5px; 
+}
+
+footer{
+    background: #903;
+    color: white;
+    width: 100%;
+    border-radius: 5px; 
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#icons{
+    margin-right: 4px;
+    margin-left: 4px;
+    color: black;
+}
+

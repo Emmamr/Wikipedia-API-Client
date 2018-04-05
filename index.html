@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+        <!-- Bootstrap Connecting  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+        
+    <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+    
+    <title>Wikipidia API</title>
+</head>
+<body class="container-fluid">
+
+        <!-- Title -->
+        <header id="title">
+            <h1><i class="fa fa-newspaper-o"></i> Wikipedia API</h1>
+            <p>A BB&T Coding Challenge</p>
+        </header>
+
+        <!-- <a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">
+            <img src="http://www.wikipediaredefined.com/img/4.png" alt="">
+        </a> -->
+        
+        <!-- Search input and random buttons -->
+        <div class="row">
+            <div class="col-sm-12">
+                <br>
+                <!-- The to the search panel and random button -->
+                <div class="panel panel-primary" id="searchPanel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong><i class="fas fa-search" id="icons"></i>Search</strong></h3>
+                    </div>
+
+                    <!-- This is where we'll handle our inputs -->
+                    <div class="panel-body">
+                        <form fole="form">
+                            <!-- Search input area -->
+                            <div class="form-group">
+                                <label for="search"> Search Input: </label>
+                                <input type="text" class="from-control" id="searchTerm">
+                            </div>
+
+                            <!-- Here we have our Submit and Random Buttons -->
+                            <button id="search" type="button" class="buttons">Submit</button>
+                            <button id="random" type="button" class="buttons"> Random </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- This section will handle displaying our retrieved articles  -->
+        <div class="row">
+            <div class="col-sm-12">
+                <br>
+                <div class="panel panel-primary">
+                    <!-- Title of pannel -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong><i class="far fa-file"></i> Article</strong></h3>
+                    </div>
+
+                    <!-- Article output -->
+                    <div class="panel-body" id="output"></div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <article>
+            <div id="output"></div>
+        </article> -->
+        
+
+        <footer class="">
+            <div class="row">
+                <h4>
+                    &COPY; Emmanuel Mosqueda Ramirez 
+                    <a  href="https://github.com/Emmamr/Wikipedia-API-Client" target="_blanck" id="icons">
+                        <i class="fab fa-github fa-lg"></i>
+                    </a>
+                    <a  href="emmanuelmos.com" id="icons">
+                        <i class="far fa-address-book fa-lg" target="_blanck" ></i>
+                    </a>
+                </h4>
+            </div>
+        </footer>
+
+
+   <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- Code to the JavaScript File -->
+  <script src="logic.js"></script>
+</body>
+</html>
